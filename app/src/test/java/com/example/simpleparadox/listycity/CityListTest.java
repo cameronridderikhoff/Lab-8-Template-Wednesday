@@ -104,5 +104,7 @@ class CityListTest {
         cityList.swapCity(0, mockCity2);
 
         assertTrue(cityList.hasCity(mockCity2));
+
+        
     }
 }
