@@ -84,6 +84,7 @@ public class CityList {
      * @param city the city to swap with
      */
     public void swapCity(int index, City city) {
-
+        cities.remove(index);
+        cities.add(index, city);
     }
 }
