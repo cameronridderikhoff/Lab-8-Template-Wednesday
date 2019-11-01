@@ -105,6 +105,6 @@ class CityListTest {
 
         assertTrue(cityList.hasCity(mockCity2));
 
-
+        
     }
 }
