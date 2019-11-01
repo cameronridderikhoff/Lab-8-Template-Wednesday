@@ -77,4 +77,13 @@ public class CityList {
     public int countCities() {
         return cities.size();
     }
+
+    /**
+     * Swaps the city in the cities at index index with the city we are bringing in
+     * @param index the index at which to swap
+     * @param city the city to swap with
+     */
+    public void swapCity(int index, City city) {
+
+    }
 }

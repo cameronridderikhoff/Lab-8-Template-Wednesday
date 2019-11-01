@@ -93,4 +93,16 @@ class CityListTest {
 
         assertEquals(1, cityList.countCities());
     }
+
+    @Test
+    void testSwapCity() {
+        CityList cityList = mockCityList();
+
+        assertEquals(1, cityList.countCities());
+        City mockCity2 = new City("Niagra Falls", "ON");
+
+        cityList.swapCity(0, mockCity2);
+
+        assertTrue(cityList.hasCity(mockCity2));
+    }
 }
